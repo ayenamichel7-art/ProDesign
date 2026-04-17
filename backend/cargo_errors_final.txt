@@ -1,0 +1,307 @@
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded ab_glyph_rasterizer v0.1.10
+  Downloaded openssl-probe v0.2.1
+  Downloaded openssl-macros v0.1.1
+  Downloaded foreign-types-shared v0.1.1
+  Downloaded color_quant v1.1.0
+  Downloaded equivalent v1.0.2
+  Downloaded pin-utils v0.1.0
+  Downloaded http-body v1.0.1
+  Downloaded md5 v0.7.0
+  Downloaded strict-num v0.1.1
+  Downloaded try-lock v0.2.5
+  Downloaded yoke-derive v0.8.1
+  Downloaded ab_glyph v0.2.32
+  Downloaded want v0.3.1
+  Downloaded arrayref v0.3.9
+  Downloaded cfg-if v1.0.4
+  Downloaded httpdate v1.0.3
+  Downloaded foreign-types v0.3.2
+  Downloaded sync_wrapper v1.0.2
+  Downloaded time-core v0.1.2
+  Downloaded sync_wrapper v0.1.2
+  Downloaded tower-layer v0.3.3
+  Downloaded form_urlencoded v1.2.2
+  Downloaded stable_deref_trait v1.2.1
+  Downloaded http-body v0.4.6
+  Downloaded tower-service v0.3.3
+  Downloaded num-conv v0.1.0
+  Downloaded percent-encoding v2.3.2
+  Downloaded owned_ttf_parser v0.25.1
+  Downloaded potential_utf v0.1.4
+  Downloaded sha1_smol v1.0.1
+  Downloaded atomic-waker v1.1.2
+  Downloaded same-file v1.0.6
+  Downloaded bit_field v0.10.3
+  Downloaded futures-sink v0.3.32
+  Downloaded scopeguard v1.2.0
+  Downloaded hyper-tls v0.5.0
+  Downloaded idna_adapter v1.2.1
+  Downloaded http-range-header v0.4.2
+  Downloaded fnv v1.0.7
+  Downloaded utf8_iter v1.0.4
+  Downloaded futures-task v0.3.32
+  Downloaded futures-core v0.3.32
+  Downloaded itoa v1.0.18
+  Downloaded zerofrom-derive v0.1.6
+  Downloaded byteorder-lite v0.1.0
+  Downloaded adler2 v2.0.1
+  Downloaded errno v0.3.14
+  Downloaded lazy_static v1.5.0
+  Downloaded powerfmt v0.2.0
+  Downloaded zerofrom v0.1.6
+  Downloaded lebe v0.5.3
+  Downloaded serde_urlencoded v0.7.1
+  Downloaded simd-adler32 v0.3.8
+  Downloaded tokio-macros v2.6.1
+  Downloaded linked-hash-map v0.5.6
+  Downloaded rustversion v1.0.22
+  Downloaded serde_path_to_error v0.1.20
+  Downloaded shlex v1.3.0
+  Downloaded smawk v0.3.2
+  Downloaded unicode-linebreak v0.1.5
+  Downloaded tracing-log v0.2.0
+  Downloaded rand_core v0.6.4
+  Downloaded synstructure v0.13.2
+  Downloaded signal-hook-registry v1.4.8
+  Downloaded deranged v0.3.11
+  Downloaded time-macros v0.2.18
+  Downloaded tokio-native-tls v0.3.1
+  Downloaded unicase v2.9.0
+  Downloaded mime v0.3.17
+  Downloaded writeable v0.6.2
+  Downloaded zerovec-derive v0.11.2
+  Downloaded rand_chacha v0.3.1
+  Downloaded slab v0.4.12
+  Downloaded autocfg v1.5.0
+  Downloaded byteorder v1.5.0
+  Downloaded displaydoc v0.2.5
+  Downloaded rustls-pemfile v1.0.4
+  Downloaded axum-core v0.4.5
+  Downloaded pkg-config v0.3.32
+  Downloaded arrayvec v0.7.6
+  Downloaded either v1.15.0
+  Downloaded bitflags v1.3.2
+  Downloaded crossbeam-deque v0.8.6
+  Downloaded ppv-lite86 v0.2.21
+  Downloaded mime_guess v2.0.5
+  Downloaded thread_local v1.1.9
+  Downloaded walkdir v2.5.0
+  Downloaded http-body-util v0.1.3
+  Downloaded quote v1.0.45
+  Downloaded nu-ansi-term v0.50.3
+  Downloaded ipnet v2.12.0
+  Downloaded pin-project-lite v0.2.17
+  Downloaded parking_lot_core v0.9.12
+  Downloaded matchit v0.7.3
+  Downloaded tinystr v0.8.2
+  Downloaded native-tls v0.2.18
+  Downloaded yoke v0.8.1
+  Downloaded fdeflate v0.3.7
+  Downloaded find-msvc-tools v0.1.9
+  Downloaded once_cell v1.21.4
+  Downloaded litemap v0.8.1
+  Downloaded zmij v1.0.21
+  Downloaded futures-channel v0.3.32
+  Downloaded gif v0.13.3
+  Downloaded num-traits v0.2.19
+  Downloaded smallvec v1.15.1
+  Downloaded lock_api v0.4.14
+  Downloaded getrandom v0.2.17
+  Downloaded parking_lot v0.12.5
+  Downloaded iana-time-zone v0.1.65
+  Downloaded async-trait v0.1.89
+  Downloaded weezl v0.1.12
+  Downloaded httparse v1.10.1
+  Downloaded unicode-ident v1.0.24
+  Downloaded zune-inflate v0.2.54
+  Downloaded tracing-attributes v0.1.31
+  Downloaded crc32fast v1.5.0
+  Downloaded tiny-skia-path v0.11.4
+  Downloaded anyhow v1.0.102
+  Downloaded bitflags v2.11.0
+  Downloaded crossbeam-epoch v0.9.18
+  Downloaded socket2 v0.4.10
+  Downloaded textwrap v0.16.2
+  Downloaded serde_derive v1.0.228
+  Downloaded crossbeam-utils v0.8.21
+  Downloaded log v0.4.29
+  Downloaded ryu v1.0.23
+  Downloaded sharded-slab v0.1.7
+  Downloaded socket2 v0.6.3
+  Downloaded uuid v1.22.0
+  Downloaded icu_provider v2.1.1
+  Downloaded half v2.7.1
+  Downloaded socket2 v0.5.10
+  Downloaded bytemuck v1.25.0
+  Downloaded rayon-core v1.13.0
+  Downloaded tracing-core v0.1.36
+  Downloaded qrcode v0.14.1
+  Downloaded serde_core v1.0.228
+  Downloaded proc-macro2 v1.0.106
+  Downloaded qoi v0.4.1
+  Downloaded serde v1.0.228
+  Downloaded miniz_oxide v0.8.9
+  Downloaded url v2.5.8
+  Downloaded rand v0.8.5
+  Downloaded openssl-sys v0.9.112
+  Downloaded icu_properties v2.1.2
+  Downloaded getrandom v0.4.2
+  Downloaded bytes v1.11.1
+  Downloaded icu_normalizer_data v2.1.1
+  Downloaded icu_normalizer v2.1.1
+  Downloaded flate2 v1.1.9
+  Downloaded zerotrie v0.2.3
+  Downloaded icu_locale_core v2.1.1
+  Downloaded icu_collections v2.1.1
+  Downloaded base64 v0.21.7
+  Downloaded png v0.17.16
+  Downloaded tower v0.5.3
+  Downloaded zerocopy-derive v0.8.47
+  Downloaded http v0.2.12
+  Downloaded cc v1.2.57
+  Downloaded zerovec v0.11.5
+  Downloaded memchr v2.8.0
+  Downloaded time v0.3.36
+  Downloaded tower-http v0.5.2
+  Downloaded mio v1.1.1
+  Downloaded indexmap v2.13.0
+  Downloaded http v1.4.0
+  Downloaded hyper-util v0.1.20
+  Downloaded regex v1.12.3
+  Downloaded serde_json v1.0.149
+  Downloaded tokio-util v0.7.18
+  Downloaded reqwest v0.11.27
+  Downloaded owned_ttf_parser v0.19.0
+  Downloaded combine v4.6.7
+  Downloaded ttf-parser v0.19.2
+  Downloaded redis v0.23.3
+  Downloaded pom v3.4.0
+  Downloaded ttf-parser v0.25.1
+  Downloaded idna v1.1.0
+  Downloaded rayon v1.11.0
+  Downloaded hashbrown v0.16.1
+  Downloaded tiny-skia v0.11.4
+  Downloaded axum v0.7.9
+  Downloaded hyper v1.8.1
+  Downloaded icu_properties_data v2.1.2
+  Downloaded h2 v0.3.27
+  Downloaded vcpkg v0.2.15
+  Downloaded tracing-subscriber v0.3.23
+  Downloaded futures-util v0.3.32
+  Downloaded aho-corasick v1.1.4
+  Downloaded moxcms v0.8.1
+  Downloaded hyper v0.14.32
+  Downloaded openssl v0.10.76
+  Downloaded unicode-width v0.2.2
+  Downloaded syn v2.0.117
+  Downloaded chrono v0.4.44
+  Downloaded exr v1.74.0
+  Downloaded image v0.25.10
+  Downloaded regex-syntax v0.8.10
+  Downloaded zerocopy v0.8.47
+  Downloaded bstr v1.12.1
+  Downloaded tracing v0.1.44
+  Downloaded regex-automata v0.4.14
+  Downloaded jpeg-decoder v0.3.2
+  Downloaded pxfm v0.1.28
+  Downloaded tokio v1.50.0
+  Downloaded libc v0.2.183
+  Downloaded tiff v0.9.1
+  Downloaded printpdf v0.7.0
+  Downloaded encoding_rs v0.8.35
+  Downloaded lopdf v0.31.0
+  Downloaded image v0.24.9
+    Checking zerofrom v0.1.6
+    Checking tokio v1.50.0
+    Checking yoke v0.8.1
+    Checking serde v1.0.228
+    Checking openssl v0.10.76
+    Checking zerovec v0.11.5
+    Checking zerotrie v0.2.3
+    Checking tinystr v0.8.2
+    Checking potential_utf v0.1.4
+    Checking icu_collections v2.1.1
+    Checking icu_locale_core v2.1.1
+    Checking serde_urlencoded v0.7.1
+    Checking icu_provider v2.1.1
+    Checking chrono v0.4.44
+    Checking icu_properties v2.1.2
+    Checking icu_normalizer v2.1.1
+    Checking native-tls v0.2.18
+    Checking printpdf v0.7.0
+    Checking idna_adapter v1.2.1
+    Checking tokio-util v0.7.18
+    Checking hyper v1.8.1
+    Checking idna v1.1.0
+    Checking url v2.5.8
+    Checking h2 v0.3.27
+    Checking tokio-native-tls v0.3.1
+    Checking hyper-util v0.1.20
+    Checking combine v4.6.7
+    Checking tower v0.5.3
+    Checking tower-http v0.5.2
+    Checking axum v0.7.9
+    Checking hyper v0.14.32
+    Checking redis v0.23.3
+    Checking hyper-tls v0.5.0
+    Checking reqwest v0.11.27
+    Checking pro-design-backend v0.1.0 (/app)
+error[E0277]: the trait bound `DynamicImage: ImageDecoder<'_>` is not satisfied
+   --> src/main.rs:439:52
+    |
+439 |             if let Ok(pdf_image) = Image::try_from(pdf_dyn_img) {
+    |                                    --------------- ^^^^^^^^^^^ the trait `ImageDecoder<'_>` is not implemented for `DynamicImage`
+    |                                    |
+    |                                    required by a bound introduced by this call
+    |
+note: there are multiple different versions of crate `image` in the dependency graph
+   --> /usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/image-0.24.9/src/image.rs:760:1
+    |
+760 | pub trait ImageDecoder<'a>: Sized {
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ this is the expected trait
+    |
+   ::: /usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/image-0.25.10/src/io/decoder.rs:7:1
+    |
+  7 | pub trait ImageDecoder {
+    | ---------------------- this is the trait that was imported
+    = help: you can use `cargo tree` to explore your dependency tree
+    = help: the following other types implement trait `ImageDecoder<'a>`:
+              BmpDecoder<R>
+              DdsDecoder<R>
+              DxtDecoder<R>
+              FarbfeldDecoder<R>
+              GifDecoder<R>
+              HdrAdapter<R>
+              IcoDecoder<R>
+              JpegDecoder<R>
+            and 7 others
+    = note: there are multiple different versions of crate `image` in the dependency graph
+    = help: you can use `cargo tree` to explore your dependency tree
+note: required by a bound in `printpdf::Image::try_from`
+   --> /usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/printpdf-0.7.0/src/image.rs:24:24
+    |
+ 24 |     pub fn try_from<T: ImageDecoder<'a>>(image: T) -> Result<Self, image_crate::ImageError> {
+    |                        ^^^^^^^^^^^^^^^^ required by this bound in `Image::try_from`
+
+warning: value assigned to `curr_y` is never read
+    --> src/main.rs:1089:9
+     |
+1089 |         curr_y += txt_scale.y * 2.0;
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: maybe it is overwritten before being read?
+     = note: `#[warn(unused_assignments)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused variable: `rect_w`
+    --> src/main.rs:1638:21
+     |
+1638 |                 let rect_w: f64 = rng.gen_range(10.0..40.0);
+     |                     ^^^^^^ help: if this is intentional, prefix it with an underscore: `_rect_w`
+     |
+     = note: `#[warn(unused_variables)]` (part of `#[warn(unused)]`) on by default
+
+For more information about this error, try `rustc --explain E0277`.
+warning: `pro-design-backend` (bin "pro-design-backend") generated 2 warnings
+error: could not compile `pro-design-backend` (bin "pro-design-backend") due to 1 previous error; 2 warnings emitted

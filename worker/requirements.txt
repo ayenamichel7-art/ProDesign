@@ -1,0 +1,11 @@
+redis>=5.2.1
+Pillow>=11.1.0
+numpy>=2.2.0
+opencv-python-headless>=4.11.0.86
+boto3>=1.36.23
+rembg>=2.0.60
+onnxruntime>=1.20.1
+requests>=2.32.3
+python-dotenv>=1.0.1
+apscheduler>=3.11.0
+safety>=3.2.11

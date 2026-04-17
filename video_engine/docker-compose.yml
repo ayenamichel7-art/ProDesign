@@ -1,0 +1,53 @@
+version: "3.8"
+
+services:
+  # The Headless Auto-Edit Video Engine
+  video-engine:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: prodesign_video_engine
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - RUST_LOG=info
+      - BIND_ADDR=0.0.0.0:3000
+    # Limites stricts pour protéger le VPS (2 vCPU, 8GB RAM global)
+    deploy:
+      resources:
+        limits:
+          cpus: '1.5'
+          memory: 4G
+        reservations:
+          cpus: '0.5'
+          memory: 512M
+    volumes:
+      - ./data/rushs:/app/rushs
+      - ./data/outputs:/app/outputs
+    networks:
+      - prodesign_network
+
+  # Reverse Proxy (Nginx Proxy Manager)
+  npm:
+    image: 'jc21/nginx-proxy-manager:latest'
+    container_name: prodesign_npm
+    restart: unless-stopped
+    ports:
+      - '80:80'    # Public HTTP
+      - '443:443'  # Public HTTPS
+      - '81:81'    # Admin Web UI Access
+    environment:
+      - DB_SQLITE_FILE=/data/database.sqlite
+      # Disable caching if not needed
+      - DISABLE_IPV6=true
+    volumes:
+      - ./data/npm/data:/data
+      - ./data/npm/letsencrypt:/etc/letsencrypt
+    networks:
+      - prodesign_network
+
+networks:
+  prodesign_network:
+    external: true
+    # This assumes `docker network create prodesign_network` has been executed before.

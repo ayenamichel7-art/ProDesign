@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "🔍 Checking for secrets before commit..."
+if grep -rE "(AWS_SECRET_ACCESS_KEY|JWT_SECRET|POSTGRES_PASSWORD|MINIO_SECRET_KEY|FEDAPAY_SECRET)=[a-zA-Z0-9+/=]{10,}" .env* ; then
+  echo "❌ Secrets detected in .env files. Commit aborted."
+  exit 1
+fi

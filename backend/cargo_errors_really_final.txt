@@ -1,0 +1,354 @@
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded ab_glyph_rasterizer v0.1.10
+  Downloaded ab_glyph v0.2.32
+  Downloaded owned_ttf_parser v0.25.1
+  Downloaded strict-num v0.1.1
+  Downloaded try-lock v0.2.5
+  Downloaded zerofrom-derive v0.1.6
+  Downloaded time-core v0.1.2
+  Downloaded foreign-types-shared v0.1.1
+  Downloaded pin-utils v0.1.0
+  Downloaded openssl-macros v0.1.1
+  Downloaded num-conv v0.1.0
+  Downloaded sync_wrapper v1.0.2
+  Downloaded tower-service v0.3.3
+  Downloaded atomic-waker v1.1.2
+  Downloaded color_quant v1.1.0
+  Downloaded stable_deref_trait v1.2.1
+  Downloaded form_urlencoded v1.2.2
+  Downloaded yoke-derive v0.8.1
+  Downloaded want v0.3.1
+  Downloaded foreign-types v0.3.2
+  Downloaded equivalent v1.0.2
+  Downloaded arrayref v0.3.9
+  Downloaded futures-sink v0.3.32
+  Downloaded tower-layer v0.3.3
+  Downloaded http-body v0.4.6
+  Downloaded http-range-header v0.4.2
+  Downloaded http-body v1.0.1
+  Downloaded md5 v0.7.0
+  Downloaded openssl-probe v0.2.1
+  Downloaded potential_utf v0.1.4
+  Downloaded same-file v1.0.6
+  Downloaded sha1_smol v1.0.1
+  Downloaded sync_wrapper v0.1.2
+  Downloaded utf8_iter v1.0.4
+  Downloaded zerofrom v0.1.6
+  Downloaded cfg-if v1.0.4
+  Downloaded futures-task v0.3.32
+  Downloaded fnv v1.0.7
+  Downloaded percent-encoding v2.3.2
+  Downloaded httpdate v1.0.3
+  Downloaded idna_adapter v1.2.1
+  Downloaded scopeguard v1.2.0
+  Downloaded rand_chacha v0.3.1
+  Downloaded adler2 v2.0.1
+  Downloaded errno v0.3.14
+  Downloaded futures-core v0.3.32
+  Downloaded smawk v0.3.2
+  Downloaded byteorder-lite v0.1.0
+  Downloaded hyper-tls v0.5.0
+  Downloaded linked-hash-map v0.5.6
+  Downloaded lazy_static v1.5.0
+  Downloaded http-body-util v0.1.3
+  Downloaded deranged v0.3.11
+  Downloaded simd-adler32 v0.3.8
+  Downloaded serde_path_to_error v0.1.20
+  Downloaded serde_urlencoded v0.7.1
+  Downloaded shlex v1.3.0
+  Downloaded mime v0.3.17
+  Downloaded unicode-linebreak v0.1.5
+  Downloaded powerfmt v0.2.0
+  Downloaded tokio-native-tls v0.3.1
+  Downloaded axum-core v0.4.5
+  Downloaded zerovec-derive v0.11.2
+  Downloaded displaydoc v0.2.5
+  Downloaded synstructure v0.13.2
+  Downloaded thread_local v1.1.9
+  Downloaded tracing-log v0.2.0
+  Downloaded pkg-config v0.3.32
+  Downloaded rand_core v0.6.4
+  Downloaded slab v0.4.12
+  Downloaded writeable v0.6.2
+  Downloaded tokio-macros v2.6.1
+  Downloaded rustversion v1.0.22
+  Downloaded itoa v1.0.18
+  Downloaded unicase v2.9.0
+  Downloaded rustls-pemfile v1.0.4
+  Downloaded ppv-lite86 v0.2.21
+  Downloaded autocfg v1.5.0
+  Downloaded time-macros v0.2.18
+  Downloaded byteorder v1.5.0
+  Downloaded fdeflate v0.3.7
+  Downloaded async-trait v0.1.89
+  Downloaded zmij v1.0.21
+  Downloaded signal-hook-registry v1.4.8
+  Downloaded tinystr v0.8.2
+  Downloaded walkdir v2.5.0
+  Downloaded bitflags v1.3.2
+  Downloaded pin-project-lite v0.2.17
+  Downloaded find-msvc-tools v0.1.9
+  Downloaded arrayvec v0.7.6
+  Downloaded lock_api v0.4.14
+  Downloaded mime_guess v2.0.5
+  Downloaded ipnet v2.12.0
+  Downloaded nu-ansi-term v0.50.3
+  Downloaded yoke v0.8.1
+  Downloaded parking_lot v0.12.5
+  Downloaded litemap v0.8.1
+  Downloaded native-tls v0.2.18
+  Downloaded matchit v0.7.3
+  Downloaded quote v1.0.45
+  Downloaded parking_lot_core v0.9.12
+  Downloaded futures-channel v0.3.32
+  Downloaded tracing-attributes v0.1.31
+  Downloaded smallvec v1.15.1
+  Downloaded once_cell v1.21.4
+  Downloaded icu_provider v2.1.1
+  Downloaded socket2 v0.4.10
+  Downloaded gif v0.13.3
+  Downloaded iana-time-zone v0.1.65
+  Downloaded httparse v1.10.1
+  Downloaded bitflags v2.11.0
+  Downloaded tiny-skia-path v0.11.4
+  Downloaded weezl v0.1.12
+  Downloaded anyhow v1.0.102
+  Downloaded crc32fast v1.5.0
+  Downloaded getrandom v0.2.17
+  Downloaded ryu v1.0.23
+  Downloaded sharded-slab v0.1.7
+  Downloaded num-traits v0.2.19
+  Downloaded unicode-ident v1.0.24
+  Downloaded getrandom v0.4.2
+  Downloaded textwrap v0.16.2
+  Downloaded socket2 v0.5.10
+  Downloaded tracing-core v0.1.36
+  Downloaded uuid v1.22.0
+  Downloaded bytemuck v1.25.0
+  Downloaded socket2 v0.6.3
+  Downloaded icu_properties v2.1.2
+  Downloaded log v0.4.29
+  Downloaded proc-macro2 v1.0.106
+  Downloaded qrcode v0.14.1
+  Downloaded serde_derive v1.0.228
+  Downloaded zerotrie v0.2.3
+  Downloaded icu_normalizer v2.1.1
+  Downloaded serde_core v1.0.228
+  Downloaded serde v1.0.228
+  Downloaded icu_normalizer_data v2.1.1
+  Downloaded miniz_oxide v0.8.9
+  Downloaded icu_locale_core v2.1.1
+  Downloaded flate2 v1.1.9
+  Downloaded rand v0.8.5
+  Downloaded base64 v0.21.7
+  Downloaded openssl-sys v0.9.112
+  Downloaded icu_collections v2.1.1
+  Downloaded bytes v1.11.1
+  Downloaded url v2.5.8
+  Downloaded memchr v2.8.0
+  Downloaded cc v1.2.57
+  Downloaded indexmap v2.13.0
+  Downloaded http v0.2.12
+  Downloaded mio v1.1.1
+  Downloaded tower v0.5.3
+  Downloaded http v1.4.0
+  Downloaded hyper-util v0.1.20
+  Downloaded tower-http v0.5.2
+  Downloaded time v0.3.36
+  Downloaded combine v4.6.7
+  Downloaded zerovec v0.11.5
+  Downloaded png v0.17.16
+  Downloaded idna v1.1.0
+  Downloaded hashbrown v0.16.1
+  Downloaded owned_ttf_parser v0.19.0
+  Downloaded tokio-util v0.7.18
+  Downloaded axum v0.7.9
+  Downloaded hyper v1.8.1
+  Downloaded icu_properties_data v2.1.2
+  Downloaded h2 v0.3.27
+  Downloaded futures-util v0.3.32
+  Downloaded serde_json v1.0.149
+  Downloaded regex v1.12.3
+  Downloaded aho-corasick v1.1.4
+  Downloaded ttf-parser v0.19.2
+  Downloaded reqwest v0.11.27
+  Downloaded moxcms v0.8.1
+  Downloaded hyper v0.14.32
+  Downloaded redis v0.23.3
+  Downloaded pom v3.4.0
+  Downloaded tiny-skia v0.11.4
+  Downloaded chrono v0.4.44
+  Downloaded ttf-parser v0.25.1
+  Downloaded tracing-subscriber v0.3.23
+  Downloaded openssl v0.10.76
+  Downloaded image v0.25.10
+  Downloaded vcpkg v0.2.15
+  Downloaded bstr v1.12.1
+  Downloaded unicode-width v0.2.2
+  Downloaded zerocopy v0.8.47
+  Downloaded syn v2.0.117
+  Downloaded regex-syntax v0.8.10
+  Downloaded tracing v0.1.44
+  Downloaded jpeg-decoder v0.3.2
+  Downloaded regex-automata v0.4.14
+  Downloaded libc v0.2.183
+  Downloaded pxfm v0.1.28
+  Downloaded tokio v1.50.0
+  Downloaded tiff v0.9.1
+  Downloaded encoding_rs v0.8.35
+  Downloaded printpdf v0.7.0
+  Downloaded lopdf v0.31.0
+  Downloaded image v0.24.9
+   Compiling zerocopy v0.8.47
+    Checking jpeg-decoder v0.3.2
+    Checking tiff v0.9.1
+    Checking image v0.24.9
+    Checking printpdf v0.7.0
+    Checking ppv-lite86 v0.2.21
+    Checking rand_chacha v0.3.1
+    Checking rand v0.8.5
+    Checking pro-design-backend v0.1.0 (/app)
+error[E0433]: failed to resolve: use of unresolved module or unlinked crate `image`
+   --> src/main.rs:852:70
+    |
+852 |         let resized_logo = logo_img.resize(size as u32, size as u32, image::imageops::FilterType::Lanczos3);
+    |                                                                      ^^^^^ use of unresolved module or unlinked crate `image`
+    |
+    = help: if you wanted to use a crate named `image`, use `cargo add image` to add it to your `Cargo.toml`
+
+error[E0433]: failed to resolve: use of unresolved module or unlinked crate `image`
+    --> src/main.rs:1248:58
+     |
+1248 |     let resized = img.resize_to_fill(target_w, target_h, image::imageops::FilterType::Lanczos3);
+     |                                                          ^^^^^ use of unresolved module or unlinked crate `image`
+     |
+     = help: if you wanted to use a crate named `image`, use `cargo add image` to add it to your `Cargo.toml`
+
+error[E0433]: failed to resolve: use of unresolved module or unlinked crate `image`
+    --> src/main.rs:1288:54
+     |
+1288 |     let resized = img.resize(max_logo_w, max_logo_h, image::imageops::FilterType::Lanczos3);
+     |                                                      ^^^^^ use of unresolved module or unlinked crate `image`
+     |
+     = help: if you wanted to use a crate named `image`, use `cargo add image` to add it to your `Cargo.toml`
+
+error[E0433]: failed to resolve: use of unresolved module or unlinked crate `image`
+    --> src/main.rs:1359:38
+     |
+1359 |     let resized = img.resize(50, 50, image::imageops::FilterType::Nearest).to_rgba8();
+     |                                      ^^^^^ use of unresolved module or unlinked crate `image`
+     |
+     = help: if you wanted to use a crate named `image`, use `cargo add image` to add it to your `Cargo.toml`
+
+error[E0277]: the trait bound `DynamicImage: ImageDecoder<'_>` is not satisfied
+   --> src/main.rs:439:62
+    |
+439 |             if let Ok(pdf_image) = printpdf::Image::try_from(pdf_dyn_img) {
+    |                                    ------------------------- ^^^^^^^^^^^ the trait `ImageDecoder<'_>` is not implemented for `DynamicImage`
+    |                                    |
+    |                                    required by a bound introduced by this call
+    |
+note: there are multiple different versions of crate `image` in the dependency graph
+   --> /usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/image-0.24.9/src/image.rs:760:1
+    |
+760 | pub trait ImageDecoder<'a>: Sized {
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ this is the expected trait
+    |
+   ::: /usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/image-0.25.10/src/io/decoder.rs:7:1
+    |
+  7 | pub trait ImageDecoder {
+    | ---------------------- this is the trait that was imported
+    = help: you can use `cargo tree` to explore your dependency tree
+    = help: the following other types implement trait `ImageDecoder<'a>`:
+              BmpDecoder<R>
+              GifDecoder<R>
+              JpegDecoder<R>
+              PngDecoder<R>
+              PnmDecoder<R>
+              TiffDecoder<R>
+    = note: there are multiple different versions of crate `image` in the dependency graph
+    = help: you can use `cargo tree` to explore your dependency tree
+note: required by a bound in `printpdf::Image::try_from`
+   --> /usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/printpdf-0.7.0/src/image.rs:24:24
+    |
+ 24 |     pub fn try_from<T: ImageDecoder<'a>>(image: T) -> Result<Self, image_crate::ImageError> {
+    |                        ^^^^^^^^^^^^^^^^ required by this bound in `Image::try_from`
+
+error[E0433]: failed to resolve: use of unresolved module or unlinked crate `image`
+   --> src/main.rs:835:30
+    |
+835 |     let template_img = match image::open(template_path) {
+    |                              ^^^^^ use of unresolved module or unlinked crate `image`
+    |
+    = help: if you wanted to use a crate named `image`, use `cargo add image` to add it to your `Cargo.toml`
+
+error[E0282]: type annotations needed
+   --> src/main.rs:835:9
+    |
+835 |     let template_img = match image::open(template_path) {
+    |         ^^^^^^^^^^^^
+...
+839 |     let (w, h) = template_img.dimensions();
+    |                  ------------ type must be known at this point
+    |
+help: consider giving `template_img` an explicit type
+    |
+835 |     let template_img: /* Type */ = match image::open(template_path) {
+    |                     ++++++++++++
+
+error[E0433]: failed to resolve: use of unresolved module or unlinked crate `image`
+   --> src/main.rs:851:27
+    |
+851 |     if let Ok(logo_img) = image::open(&logo_path) {
+    |                           ^^^^^ use of unresolved module or unlinked crate `image`
+    |
+    = help: if you wanted to use a crate named `image`, use `cargo add image` to add it to your `Cargo.toml`
+
+error[E0282]: type annotations needed
+   --> src/main.rs:852:28
+    |
+852 |         let resized_logo = logo_img.resize(size as u32, size as u32, image::imageops::FilterType::Lanczos3);
+    |                            ^^^^^^^^ cannot infer type
+
+error[E0433]: failed to resolve: use of unresolved module or unlinked crate `image`
+    --> src/main.rs:1247:15
+     |
+1247 |     let img = image::load_from_memory(&bytes).ok()?;
+     |               ^^^^^ use of unresolved module or unlinked crate `image`
+     |
+     = help: if you wanted to use a crate named `image`, use `cargo add image` to add it to your `Cargo.toml`
+
+error[E0433]: failed to resolve: use of unresolved module or unlinked crate `image`
+    --> src/main.rs:1281:21
+     |
+1281 |     let img = match image::load_from_memory(&bytes) {
+     |                     ^^^^^ use of unresolved module or unlinked crate `image`
+     |
+     = help: if you wanted to use a crate named `image`, use `cargo add image` to add it to your `Cargo.toml`
+
+error[E0282]: type annotations needed
+    --> src/main.rs:1281:9
+     |
+1281 |     let img = match image::load_from_memory(&bytes) {
+     |         ^^^
+...
+1288 |     let resized = img.resize(max_logo_w, max_logo_h, image::imageops::FilterType::Lanczos3);
+     |                   --- type must be known at this point
+     |
+help: consider giving `img` an explicit type
+     |
+1281 |     let img: /* Type */ = match image::load_from_memory(&bytes) {
+     |            ++++++++++++
+
+error[E0433]: failed to resolve: use of unresolved module or unlinked crate `image`
+    --> src/main.rs:1358:15
+     |
+1358 |     let img = image::load_from_memory(&bytes).ok()?;
+     |               ^^^^^ use of unresolved module or unlinked crate `image`
+     |
+     = help: if you wanted to use a crate named `image`, use `cargo add image` to add it to your `Cargo.toml`
+
+Some errors have detailed explanations: E0277, E0282, E0433.
+For more information about an error, try `rustc --explain E0277`.
+error: could not compile `pro-design-backend` (bin "pro-design-backend") due to 13 previous errors

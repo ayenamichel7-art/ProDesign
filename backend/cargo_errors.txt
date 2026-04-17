@@ -1,0 +1,470 @@
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded ab_glyph_rasterizer v0.1.10
+  Downloaded arrayref v0.3.9
+  Downloaded cfg-if v1.0.4
+  Downloaded color_quant v1.1.0
+  Downloaded errno v0.3.14
+  Downloaded equivalent v1.0.2
+  Downloaded nu-ansi-term v0.50.3
+  Downloaded hyper-tls v0.5.0
+  Downloaded owned_ttf_parser v0.25.1
+  Downloaded mime v0.3.17
+  Downloaded pin-utils v0.1.0
+  Downloaded byteorder-lite v0.1.0
+  Downloaded openssl-macros v0.1.1
+  Downloaded bit_field v0.10.3
+  Downloaded adler2 v2.0.1
+  Downloaded powerfmt v0.2.0
+  Downloaded potential_utf v0.1.4
+  Downloaded rand_chacha v0.3.1
+  Downloaded same-file v1.0.6
+  Downloaded scopeguard v1.2.0
+  Downloaded linked-hash-map v0.5.6
+  Downloaded yoke-derive v0.8.1
+  Downloaded fdeflate v0.3.7
+  Downloaded try-lock v0.2.5
+  Downloaded mime_guess v2.0.5
+  Downloaded axum-core v0.4.5
+  Downloaded want v0.3.1
+  Downloaded http-range-header v0.4.2
+  Downloaded http-body-util v0.1.3
+  Downloaded ipnet v2.12.0
+  Downloaded zerofrom-derive v0.1.6
+  Downloaded tower-service v0.3.3
+  Downloaded bitflags v2.11.0
+  Downloaded gif v0.13.3
+  Downloaded time-core v0.1.2
+  Downloaded tower-layer v0.3.3
+  Downloaded iana-time-zone v0.1.65
+  Downloaded matchit v0.7.3
+  Downloaded zmij v1.0.21
+  Downloaded getrandom v0.2.17
+  Downloaded utf8_iter v1.0.4
+  Downloaded percent-encoding v2.3.2
+  Downloaded ppv-lite86 v0.2.21
+  Downloaded num-traits v0.2.19
+  Downloaded quote v1.0.45
+  Downloaded tracing-log v0.2.0
+  Downloaded tokio-macros v2.6.1
+  Downloaded zune-inflate v0.2.54
+  Downloaded flate2 v1.1.9
+  Downloaded memchr v2.8.0
+  Downloaded slab v0.4.12
+  Downloaded simd-adler32 v0.3.8
+  Downloaded mio v1.1.1
+  Downloaded idna v1.1.0
+  Downloaded icu_properties_data v2.1.2
+  Downloaded parking_lot_core v0.9.12
+  Downloaded aho-corasick v1.1.4
+  Downloaded once_cell v1.21.4
+  Downloaded moxcms v0.8.1
+  Downloaded exr v1.74.0
+  Downloaded tokio-native-tls v0.3.1
+  Downloaded image v0.25.10
+  Downloaded serde_path_to_error v0.1.20
+  Downloaded bstr v1.12.1
+  Downloaded rustversion v1.0.22
+  Downloaded chrono v0.4.44
+  Downloaded tinystr v0.8.2
+  Downloaded thread_local v1.1.9
+  Downloaded hyper v0.14.32
+  Downloaded zerocopy v0.8.47
+  Downloaded signal-hook-registry v1.4.8
+  Downloaded futures-util v0.3.32
+  Downloaded h2 v0.3.27
+  Downloaded hyper v1.8.1
+  Downloaded time-macros v0.2.18
+  Downloaded hashbrown v0.16.1
+  Downloaded unicase v2.9.0
+  Downloaded zerocopy-derive v0.8.47
+  Downloaded walkdir v2.5.0
+  Downloaded combine v4.6.7
+  Downloaded zerovec v0.11.5
+  Downloaded rustls-pemfile v1.0.4
+  Downloaded axum v0.7.9
+  Downloaded jpeg-decoder v0.3.2
+  Downloaded hyper-util v0.1.20
+  Downloaded libc v0.2.183
+  Downloaded rand_core v0.6.4
+  Downloaded indexmap v2.13.0
+  Downloaded http v1.4.0
+  Downloaded http v0.2.12
+  Downloaded icu_collections v2.1.1
+  Downloaded bytes v1.11.1
+  Downloaded base64 v0.21.7
+  Downloaded cc v1.2.57
+  Downloaded icu_normalizer v2.1.1
+  Downloaded icu_locale_core v2.1.1
+  Downloaded synstructure v0.13.2
+  Downloaded smawk v0.3.2
+  Downloaded shlex v1.3.0
+  Downloaded miniz_oxide v0.8.9
+  Downloaded pin-project-lite v0.2.17
+  Downloaded icu_provider v2.1.1
+  Downloaded icu_normalizer_data v2.1.1
+  Downloaded bytemuck v1.25.0
+  Downloaded pkg-config v0.3.32
+  Downloaded smallvec v1.15.1
+  Downloaded icu_properties v2.1.2
+  Downloaded httparse v1.10.1
+  Downloaded half v2.7.1
+  Downloaded getrandom v0.4.2
+  Downloaded unicode-linebreak v0.1.5
+  Downloaded log v0.4.29
+  Downloaded anyhow v1.0.102
+  Downloaded encoding_rs v0.8.35
+  Downloaded either v1.15.0
+  Downloaded zerovec-derive v0.11.2
+  Downloaded litemap v0.8.1
+  Downloaded writeable v0.6.2
+  Downloaded futures-channel v0.3.32
+  Downloaded crossbeam-utils v0.8.21
+  Downloaded crossbeam-epoch v0.9.18
+  Downloaded crc32fast v1.5.0
+  Downloaded zerofrom v0.1.6
+  Downloaded yoke v0.8.1
+  Downloaded sha1_smol v1.0.1
+  Downloaded native-tls v0.2.18
+  Downloaded strict-num v0.1.1
+  Downloaded stable_deref_trait v1.2.1
+  Downloaded foreign-types v0.3.2
+  Downloaded find-msvc-tools v0.1.9
+  Downloaded displaydoc v0.2.5
+  Downloaded async-trait v0.1.89
+  Downloaded arrayvec v0.7.6
+  Downloaded lock_api v0.4.14
+  Downloaded sync_wrapper v1.0.2
+  Downloaded parking_lot v0.12.5
+  Downloaded sync_wrapper v0.1.2
+  Downloaded serde_urlencoded v0.7.1
+  Downloaded weezl v0.1.12
+  Downloaded deranged v0.3.11
+  Downloaded crossbeam-deque v0.8.6
+  Downloaded byteorder v1.5.0
+  Downloaded proc-macro2 v1.0.106
+  Downloaded socket2 v0.4.10
+  Downloaded bitflags v1.3.2
+  Downloaded tiny-skia-path v0.11.4
+  Downloaded autocfg v1.5.0
+  Downloaded atomic-waker v1.1.2
+  Downloaded ab_glyph v0.2.32
+  Downloaded num-conv v0.1.0
+  Downloaded lebe v0.5.3
+  Downloaded itoa v1.0.18
+  Downloaded idna_adapter v1.2.1
+  Downloaded foreign-types-shared v0.1.1
+  Downloaded http-body v0.4.6
+  Downloaded md5 v0.7.0
+  Downloaded openssl-probe v0.2.1
+  Downloaded lazy_static v1.5.0
+  Downloaded httpdate v1.0.3
+  Downloaded http-body v1.0.1
+  Downloaded futures-task v0.3.32
+  Downloaded futures-sink v0.3.32
+  Downloaded unicode-ident v1.0.24
+  Downloaded ryu v1.0.23
+  Downloaded futures-core v0.3.32
+  Downloaded form_urlencoded v1.2.2
+  Downloaded fnv v1.0.7
+  Downloaded tracing-attributes v0.1.31
+  Downloaded socket2 v0.6.3
+  Downloaded sharded-slab v0.1.7
+  Downloaded openssl-sys v0.9.112
+  Downloaded uuid v1.22.0
+  Downloaded socket2 v0.5.10
+  Downloaded serde_derive v1.0.228
+  Downloaded textwrap v0.16.2
+  Downloaded tracing-core v0.1.36
+  Downloaded rayon-core v1.13.0
+  Downloaded qrcode v0.14.1
+  Downloaded serde_core v1.0.228
+  Downloaded zerotrie v0.2.3
+  Downloaded qoi v0.4.1
+  Downloaded serde v1.0.228
+  Downloaded url v2.5.8
+  Downloaded tower v0.5.3
+  Downloaded png v0.17.16
+  Downloaded tower-http v0.5.2
+  Downloaded time v0.3.36
+  Downloaded owned_ttf_parser v0.19.0
+  Downloaded reqwest v0.11.27
+  Downloaded ttf-parser v0.19.2
+  Downloaded tokio-util v0.7.18
+  Downloaded tiny-skia v0.11.4
+  Downloaded ttf-parser v0.25.1
+  Downloaded tracing-subscriber v0.3.23
+  Downloaded vcpkg v0.2.15
+  Downloaded rayon v1.11.0
+  Downloaded redis v0.23.3
+  Downloaded openssl v0.10.76
+  Downloaded unicode-width v0.2.2
+  Downloaded syn v2.0.117
+  Downloaded pom v3.4.0
+  Downloaded serde_json v1.0.149
+  Downloaded regex v1.12.3
+  Downloaded regex-syntax v0.8.10
+  Downloaded rand v0.8.5
+  Downloaded tracing v0.1.44
+  Downloaded lopdf v0.31.0
+  Downloaded regex-automata v0.4.14
+  Downloaded pxfm v0.1.28
+  Downloaded tokio v1.50.0
+  Downloaded tiff v0.9.1
+  Downloaded image v0.24.9
+  Downloaded printpdf v0.7.0
+    Blocking waiting for file lock on build directory
+   Compiling proc-macro2 v1.0.106
+   Compiling quote v1.0.45
+   Compiling icu_properties_data v2.1.2
+   Compiling zerocopy v0.8.47
+   Compiling native-tls v0.2.18
+   Compiling zmij v1.0.21
+   Compiling getrandom v0.4.2
+    Checking serde_json v1.0.149
+    Checking uuid v1.22.0
+   Compiling syn v2.0.117
+   Compiling synstructure v0.13.2
+   Compiling zerofrom-derive v0.1.6
+   Compiling yoke-derive v0.8.1
+   Compiling tokio-macros v2.6.1
+   Compiling zerovec-derive v0.11.2
+    Checking tokio v1.50.0
+   Compiling displaydoc v0.2.5
+   Compiling tracing-attributes v0.1.31
+    Checking zerofrom v0.1.6
+    Checking yoke v0.8.1
+    Checking zerovec v0.11.5
+    Checking zerotrie v0.2.3
+    Checking tinystr v0.8.2
+    Checking potential_utf v0.1.4
+    Checking icu_locale_core v2.1.1
+    Checking icu_collections v2.1.1
+    Checking tracing v0.1.44
+   Compiling zerocopy-derive v0.8.47
+   Compiling serde_derive v1.0.228
+    Checking icu_provider v2.1.1
+    Checking icu_normalizer v2.1.1
+    Checking tokio-util v0.7.18
+    Checking icu_properties v2.1.2
+   Compiling openssl-macros v0.1.1
+    Checking openssl v0.10.76
+    Checking idna_adapter v1.2.1
+    Checking idna v1.1.0
+    Checking h2 v0.3.27
+    Checking serde v1.0.228
+   Compiling async-trait v0.1.89
+    Checking tokio-native-tls v0.3.1
+    Checking serde_urlencoded v0.7.1
+    Checking ppv-lite86 v0.2.21
+    Checking half v2.7.1
+    Checking url v2.5.8
+    Checking hyper v1.8.1
+    Checking exr v1.74.0
+    Checking hyper v0.14.32
+    Checking rand_chacha v0.3.1
+    Checking axum-core v0.4.5
+    Checking hyper-util v0.1.20
+    Checking combine v4.6.7
+    Checking tower v0.5.3
+    Checking image v0.24.9
+    Checking axum v0.7.9
+    Checking hyper-tls v0.5.0
+    Checking reqwest v0.11.27
+    Checking rand v0.8.5
+    Checking redis v0.23.3
+    Checking chrono v0.4.44
+    Checking tower-http v0.5.2
+    Checking pro-design-backend v0.1.0 (/app)
+error[E0433]: failed to resolve: could not find `image_crate` in `printpdf`
+   --> src/main.rs:438:44
+    |
+438 |         if let Ok(pdf_dyn_img) = printpdf::image_crate::load_from_memory(&cover_bytes) {
+    |                                            ^^^^^^^^^^^ could not find `image_crate` in `printpdf`
+    |
+note: found an item that was configured out
+   --> /usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/printpdf-0.7.0/src/lib.rs:320:27
+    |
+319 | #[cfg(feature = "embedded_images")]
+    |       --------------------------- the item is gated behind the `embedded_images` feature
+320 | pub extern crate image as image_crate;
+    |                           ^^^^^^^^^^^
+
+error[E0308]: mismatched types
+   --> src/main.rs:479:109
+    |
+479 | ...r.title.to_uppercase()), 18.0, Mm(25.0), Mm(cursor_y as f64), &font_title);
+    |                                             -- ^^^^^^^^^^^^^^^ expected `f32`, found `f64`
+    |                                             |
+    |                                             arguments to this struct are incorrect
+    |
+note: tuple struct defined here
+   --> /usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/printpdf-0.7.0/src/scale.rs:41:12
+    |
+ 41 | pub struct Mm(pub f32);
+    |            ^^
+
+error[E0308]: mismatched types
+   --> src/main.rs:486:42
+    |
+486 |                 (Point::new(Mm(25.0), Mm(cursor_y as f64 + 5.0)), false),
+    |                                       -- ^^^^^^^^^^^^^^^^^^^^^ expected `f32`, found `f64`
+    |                                       |
+    |                                       arguments to this struct are incorrect
+    |
+note: tuple struct defined here
+   --> /usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/printpdf-0.7.0/src/scale.rs:41:12
+    |
+ 41 | pub struct Mm(pub f32);
+    |            ^^
+
+error[E0277]: the trait bound `Mm: From<{float}>` is not satisfied
+   --> src/main.rs:487:35
+    |
+487 |                 (Point::new(185.0.into(), Mm(cursor_y as f64 + 5.0)), false),
+    |                                   ^^^^ the trait `From<{float}>` is not implemented for `Mm`
+    |
+help: the trait `From<{float}>` is not implemented for `Mm`
+      but trait `From<Pt>` is implemented for it
+   --> /usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/printpdf-0.7.0/src/scale.rs:50:1
+    |
+ 50 | impl From<Pt> for Mm {
+    | ^^^^^^^^^^^^^^^^^^^^
+    = help: for that trait implementation, expected `Pt`, found `{float}`
+    = note: required for `{float}` to implement `Into<Mm>`
+
+error[E0308]: mismatched types
+   --> src/main.rs:487:46
+    |
+487 |                 (Point::new(185.0.into(), Mm(cursor_y as f64 + 5.0)), false),
+    |                                           -- ^^^^^^^^^^^^^^^^^^^^^ expected `f32`, found `f64`
+    |                                           |
+    |                                           arguments to this struct are incorrect
+    |
+note: tuple struct defined here
+   --> /usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/printpdf-0.7.0/src/scale.rs:41:12
+    |
+ 41 | pub struct Mm(pub f32);
+    |            ^^
+
+error[E0560]: struct `printpdf::Line` has no field named `has_fill`
+   --> src/main.rs:490:13
+    |
+490 |             has_fill: false,
+    |             ^^^^^^^^ `printpdf::Line` does not have this field
+    |
+    = note: all struct fields are already assigned
+
+error[E0560]: struct `printpdf::Line` has no field named `has_stroke`
+   --> src/main.rs:491:13
+    |
+491 |             has_stroke: true,
+    |             ^^^^^^^^^^ `printpdf::Line` does not have this field
+    |
+    = note: all struct fields are already assigned
+
+error[E0560]: struct `printpdf::Line` has no field named `is_clipping_path`
+   --> src/main.rs:492:13
+    |
+492 |             is_clipping_path: false,
+    |             ^^^^^^^^^^^^^^^^ `printpdf::Line` does not have this field
+    |
+    = note: all struct fields are already assigned
+
+error[E0599]: no method named `add_shape` found for struct `PdfLayerReference` in the current scope
+   --> src/main.rs:494:15
+    |
+494 |         layer.add_shape(line);
+    |               ^^^^^^^^^ method not found in `PdfLayerReference`
+
+error[E0308]: mismatched types
+   --> src/main.rs:521:65
+    |
+521 |             layer.use_text(line_text.trim(), 11.0, Mm(25.0), Mm(cursor_y as f64), &font_body);
+    |                                                              -- ^^^^^^^^^^^^^^^ expected `f32`, found `f64`
+    |                                                              |
+    |                                                              arguments to this struct are incorrect
+    |
+note: tuple struct defined here
+   --> /usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/printpdf-0.7.0/src/scale.rs:41:12
+    |
+ 41 | pub struct Mm(pub f32);
+    |            ^^
+
+error[E0308]: mismatched types
+   --> src/main.rs:552:14
+    |
+552 |     doc.save(&mut pdf_bytes).unwrap_or_default();
+    |         ---- ^^^^^^^^^^^^^^ expected `&mut BufWriter<_>`, found `&mut Vec<_>`
+    |         |
+    |         arguments to this method are incorrect
+    |
+    = note: expected mutable reference `&mut std::io::BufWriter<_>`
+               found mutable reference `&mut Vec<_>`
+note: method defined here
+   --> /usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/printpdf-0.7.0/src/pdf_document.rs:818:12
+    |
+818 |     pub fn save<W: Write>(self, target: &mut BufWriter<W>) -> Result<(), Error> {
+    |            ^^^^
+
+error[E0308]: mismatched types
+    --> src/main.rs:1642:43
+     |
+1642 |                 let bar = PdfRect::new(Mm(x_pos), Mm(y_pos), Mm(x_pos + 10.0), Mm(y_pos + rect_h));
+     |                                        -- ^^^^^ expected `f32`, found `f64`
+     |                                        |
+     |                                        arguments to this struct are incorrect
+     |
+note: tuple struct defined here
+    --> /usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/printpdf-0.7.0/src/scale.rs:41:12
+     |
+  41 | pub struct Mm(pub f32);
+     |            ^^
+
+error[E0308]: mismatched types
+    --> src/main.rs:1642:65
+     |
+1642 |                 let bar = PdfRect::new(Mm(x_pos), Mm(y_pos), Mm(x_pos + 10.0), Mm(y_pos + rect_h));
+     |                                                              -- ^^^^^^^^^^^^ expected `f32`, found `f64`
+     |                                                              |
+     |                                                              arguments to this struct are incorrect
+     |
+note: tuple struct defined here
+    --> /usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/printpdf-0.7.0/src/scale.rs:41:12
+     |
+  41 | pub struct Mm(pub f32);
+     |            ^^
+
+error[E0308]: mismatched types
+    --> src/main.rs:1642:91
+     |
+1642 |                 let bar = PdfRect::new(Mm(x_pos), Mm(y_pos), Mm(x_pos + 10.0), Mm(y_pos + rect_h));
+     |                                                                                           ^^^^^^ expected `f32`, found `f64`
+
+error[E0277]: cannot add `f64` to `f32`
+    --> src/main.rs:1642:89
+     |
+1642 |                 let bar = PdfRect::new(Mm(x_pos), Mm(y_pos), Mm(x_pos + 10.0), Mm(y_pos + rect_h));
+     |                                                                                         ^ no implementation for `f32 + f64`
+     |
+     = help: the trait `Add<f64>` is not implemented for `f32`
+     = help: the following other types implement trait `Add<Rhs>`:
+               `&f32` implements `Add<f32>`
+               `&f32` implements `Add`
+               `f32` implements `Add<&f32>`
+               `f32` implements `Add<zerocopy::byteorder::F32<O>>`
+               `f32` implements `Add`
+
+warning: value assigned to `curr_y` is never read
+    --> src/main.rs:1089:9
+     |
+1089 |         curr_y += txt_scale.y * 2.0;
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: maybe it is overwritten before being read?
+     = note: `#[warn(unused_assignments)]` (part of `#[warn(unused)]`) on by default
+
+Some errors have detailed explanations: E0277, E0308, E0433, E0560, E0599.
+For more information about an error, try `rustc --explain E0277`.
+warning: `pro-design-backend` (bin "pro-design-backend") generated 1 warning
+error: could not compile `pro-design-backend` (bin "pro-design-backend") due to 15 previous errors; 1 warning emitted

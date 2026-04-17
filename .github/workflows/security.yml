@@ -1,0 +1,54 @@
+name: 🛡️ ProDesign Security Guard
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  schedule:
+    - cron: '0 0 * * *' # Every night
+
+jobs:
+  gitleaks:
+    name: 🔑 Secret Scan (Gitleaks)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  semgrep:
+    name: 🔍 Static Analysis (Semgrep)
+    runs-on: ubuntu-latest
+    container:
+      image: returntocorp/semgrep
+    steps:
+      - uses: actions/checkout@v4
+      - run: semgrep scan --config=auto --error
+
+  osv-scanner:
+    name: 📦 Dependency Scan (OSV)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install OSV-Scanner
+        run: |
+          curl -L https://github.com/google/osv-scanner/releases/download/v1.9.1/osv-scanner_1.9.1_linux_amd64 -o osv-scanner
+          chmod +x osv-scanner
+      - name: Run OSV-Scanner
+        run: ./osv-scanner -r .
+
+  snyk:
+    name: 🛡️ Security Audit (Snyk)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Snyk Test
+        uses: snyk/actions/setup@master
+      - name: Snyk Scan
+        run: snyk test --all-projects
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}

@@ -1,0 +1,659 @@
+﻿docker :     Updating crates.io index
+Au caractère Ligne:1 : 1
++ docker run --rm -v "C:\Users\MICHEL\Desk
+top\ProDesign\backend:/app" - ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecifie 
+   d: (    Updating crates.io index:Stri  
+  ng) [], RemoteException
+    + FullyQualifiedErrorId : NativeComma 
+   ndError
+ 
+ Downloading crates ...
+  Downloaded adler2 v2.0.1
+  Downloaded color_quant v1.1.0
+  Downloaded httpdate v1.0.3
+  Downloaded bit_field v0.10.3
+  Downloaded arrayref v0.3.9
+  Downloaded ab_glyph_rasterizer v0.1.10
+  Downloaded sync_wrapper v1.0.2
+  Downloaded futures-task v0.3.32
+  Downloaded http-range-header v0.4.2
+  Downloaded http-body v1.0.1
+  Downloaded futures-sink v0.3.32
+  Downloaded form_urlencoded v1.2.2
+  Downloaded atomic-waker v1.1.2
+  Downloaded synstructure v0.13.2
+  Downloaded sha1_smol v1.0.1
+  Downloaded stable_deref_trait v1.2.1
+  Downloaded serde_urlencoded v0.7.1
+  Downloaded zerofrom v0.1.6
+  Downloaded http-body-util v0.1.3
+  Downloaded either v1.15.0
+  Downloaded axum-core v0.4.5
+  Downloaded percent-encoding v2.3.2
+  Downloaded num-integer v0.1.46
+  Downloaded rustversion v1.0.22
+  Downloaded matchit v0.7.3
+  Downloaded displaydoc v0.2.5
+  Downloaded quote v1.0.45
+  Downloaded lock_api v0.4.14
+  Downloaded nu-ansi-term v0.50.3
+  Downloaded yoke-derive v0.8.1
+  Downloaded utf8_iter v1.0.4
+  Downloaded async-trait v0.1.89
+  Downloaded signal-hook-registry v1.4.8
+  Downloaded futures-channel v0.3.32
+  Downloaded strict-num v0.1.1
+  Downloaded zerofrom-derive v0.1.6
+  Downloaded crossbeam-epoch v0.9.18
+  Downloaded parking_lot_core v0.9.12
+  Downloaded once_cell v1.21.4
+  Downloaded socket2 v0.4.10
+  Downloaded serde_core v1.0.228
+  Downloaded ryu v1.0.23
+  Downloaded zerovec-derive v0.11.2
+  Downloaded icu_normalizer_data v2.1.1
+  Downloaded rayon-core v1.13.0
+  Downloaded qoi v0.4.1
+  Downloaded yoke v0.8.1
+  Downloaded slab v0.4.12
+  Downloaded miniz_oxide v0.8.9
+  Downloaded icu_collections v2.1.1
+  Downloaded simd-adler32 v0.3.8
+  Downloaded memchr v2.8.0
+  Downloaded mio v1.1.1
+  Downloaded zmij v1.0.21
+  Downloaded idna v1.1.0
+  Downloaded rayon v1.11.0
+  Downloaded serde_json v1.0.149
+  Downloaded walkdir v2.5.0
+  Downloaded redis v0.23.3
+  Downloaded exr v1.74.0
+  Downloaded tracing-log v0.2.0
+  Downloaded image v0.23.14
+  Downloaded futures-util v0.3.32
+  Downloaded axum v0.7.9
+  Downloaded icu_properties_data v2.1.2
+  Downloaded hyper v1.8.1
+  Downloaded unicase v2.9.0
+  Downloaded png v0.17.16
+  Downloaded combine v4.6.7
+  Downloaded hyper-util v0.1.20
+  Downloaded http v1.4.0
+  Downloaded tinystr v0.8.2
+  Downloaded serde_path_to_error v0.1.20
+  Downloaded thread_local v1.1.9
+  Downloaded writeable v0.6.2
+  Downloaded tokio-macros v2.6.1
+  Downloaded serde v1.0.228
+  Downloaded qrcode v0.12.0
+  Downloaded flate2 v1.1.9
+  Downloaded base64 v0.21.7
+  Downloaded smallvec v1.15.1
+  Downloaded tracing-attributes v0.1.31
+  Downloaded icu_properties v2.1.2
+  Downloaded icu_locale_core v2.1.1
+  Downloaded icu_normalizer v2.1.1
+  Downloaded bytes v1.11.1
+  Downloaded jpeg-decoder v0.3.2
+  Downloaded bitflags v2.11.0
+  Downloaded proc-macro2 v1.0.106
+  Downloaded libc v0.2.183
+  Downloaded icu_provider v2.1.1
+  Downloaded parking_lot v0.12.5
+  Downloaded log v0.4.29
+  Downloaded half v2.7.1
+  Downloaded getrandom v0.4.2
+  Downloaded crossbeam-deque v0.8.6
+  Downloaded crc32fast v1.5.0
+  Downloaded bytemuck v1.25.0
+  Downloaded zune-inflate v0.2.54
+  Downloaded num-traits v0.2.19
+  Downloaded litemap v0.8.1
+  Downloaded bitflags v1.3.2
+  Downloaded arrayvec v0.7.6
+  Downloaded httparse v1.10.1
+  Downloaded gif v0.13.3
+  Downloaded crossbeam-utils v0.8.21
+  Downloaded ab_glyph v0.2.32
+  Downloaded pin-project-lite v0.2.17
+  Downloaded num-rational v0.3.2
+  Downloaded mime_guess v2.0.5
+  Downloaded byteorder v1.5.0
+  Downloaded autocfg v1.5.0
+  Downloaded futures-core v0.3.32
+  Downloaded fdeflate v0.3.7
+  Downloaded tower-service v0.3.3
+  Downloaded tower-layer v0.3.3
+  Downloaded potential_utf v0.1.4
+  Downloaded num-iter v0.1.45
+  Downloaded lebe v0.5.3
+  Downloaded socket2 v0.6.3
+  Downloaded weezl v0.1.12
+  Downloaded lazy_static v1.5.0
+  Downloaded tiny-skia-path v0.11.4
+  Downloaded tracing-core v0.1.36
+  Downloaded same-file v1.0.6
+  Downloaded pin-utils v0.1.0
+  Downloaded owned_ttf_parser v0.25.1
+  Downloaded mime v0.3.17
+  Downloaded itoa v1.0.18
+  Downloaded idna_adapter v1.2.1
+  Downloaded cfg-if v1.0.4
+  Downloaded scopeguard v1.2.0
+  Downloaded errno v0.3.14
+  Downloaded checked_int_cast v1.0.0
+  Downloaded unicode-ident v1.0.24
+  Downloaded zerotrie v0.2.3
+  Downloaded serde_derive v1.0.228
+  Downloaded sharded-slab v0.1.7
+  Downloaded uuid v1.22.0
+  Downloaded zerocopy-derive v0.8.47
+  Downloaded url v2.5.8
+  Downloaded tower-http v0.5.2
+  Downloaded tower v0.5.3
+  Downloaded image v0.24.9
+  Downloaded zerovec v0.11.5
+  Downloaded tokio-util v0.7.18
+  Downloaded tiny-skia v0.11.4
+  Downloaded ttf-parser v0.25.1
+  Downloaded tracing-subscriber v0.3.23
+  Downloaded zerocopy v0.8.47
+  Downloaded syn v2.0.117
+  Downloaded tracing v0.1.44
+  Downloaded tokio v1.50.0
+  Downloaded tiff v0.9.1
+   Compiling proc-macro2 v1.0.106
+   Compiling unicode-ident v1.0.24
+   Compiling quote v1.0.45
+    Checking cfg-if v1.0.4
+   Compiling libc v0.2.183
+    Checking smallvec v1.15.1
+    Checking stable_deref_trait v1.2.1
+    Checking pin-project-lite v0.2.17
+    Checking bytes v1.11.1
+    Checking futures-core v0.3.32
+    Checking itoa v1.0.18
+   Compiling parking_lot_core v0.9.12
+   Compiling autocfg v1.5.0
+    Checking scopeguard v1.2.0
+    Checking lock_api v0.4.14
+   Compiling crossbeam-utils v0.8.21
+    Checking simd-adler32 v0.3.8
+   Compiling syn v2.0.117
+   Compiling num-traits v0.2.19
+    Checking futures-sink v0.3.32
+    Checking errno v0.3.14
+    Checking signal-hook-registry v1.4.8
+    Checking parking_lot v0.12.5
+    Checking mio v1.1.1
+    Checking socket2 v0.6.3
+    Checking log v0.4.29
+    Checking writeable v0.6.2
+    Checking once_cell v1.21.4
+    Checking litemap v0.8.1
+    Checking crossbeam-epoch v0.9.18
+    Checking tracing-core v0.1.36
+    Checking http v1.4.0
+   Compiling rayon-core v1.13.0
+   Compiling crc32fast v1.5.0
+   Compiling serde_core v1.0.228
+    Checking adler2 v2.0.1
+   Compiling icu_normalizer_data v2.1.1
+   Compiling icu_properties_data v2.1.2
+    Checking http-body v1.0.1
+    Checking miniz_oxide v0.8.9
+    Checking crossbeam-deque v0.8.6
+    Checking slab v0.4.12
+    Checking percent-encoding v2.3.2
+    Checking futures-task v0.3.32
+    Checking bytemuck v1.25.0
+    Checking futures-util v0.3.32
+   Compiling httparse v1.10.1
+    Checking tower-service v0.3.3
+   Compiling zerocopy v0.8.47
+    Checking flate2 v1.1.9
+    Checking num-integer v0.1.46
+    Checking form_urlencoded v1.2.2
+   Compiling num-rational v0.3.2
+    Checking memchr v2.8.0
+   Compiling serde v1.0.228
+   Compiling synstructure v0.13.2
+   Compiling rustversion v1.0.22
+    Checking mime v0.3.17
+   Compiling zmij v1.0.21
+    Checking httpdate v1.0.3
+   Compiling unicase v2.9.0
+    Checking tower-layer v0.3.3
+    Checking either v1.15.0
+    Checking color_quant v1.1.0
+   Compiling mime_guess v2.0.5
+    Checking rayon v1.11.0
+    Checking http-body-util v0.1.3
+    Checking fdeflate v0.3.7
+    Checking futures-channel v0.3.32
+    Checking pin-utils v0.1.0
+   Compiling serde_json v1.0.149
+    Checking weezl v0.1.12
+    Checking byteorder v1.5.0
+    Checking ryu v1.0.23
+    Checking bitflags v1.3.2
+    Checking sync_wrapper v1.0.2
+    Checking utf8_iter v1.0.4
+   Compiling getrandom v0.4.2
+    Checking atomic-waker v1.1.2
+    Checking png v0.17.16
+   Compiling zerofrom-derive v0.1.6
+   Compiling yoke-derive v0.8.1
+   Compiling zerovec-derive v0.11.2
+   Compiling displaydoc v0.2.5
+   Compiling tokio-macros v2.6.1
+    Checking zerofrom v0.1.6
+   Compiling tracing-attributes v0.1.31
+    Checking yoke v0.8.1
+    Checking zerotrie v0.2.3
+    Checking zerovec v0.11.5
+   Compiling zerocopy-derive v0.8.47
+    Checking tokio v1.50.0
+    Checking tinystr v0.8.2
+    Checking icu_locale_core v2.1.1
+    Checking potential_utf v0.1.4
+    Checking icu_collections v2.1.1
+    Checking icu_provider v2.1.1
+    Checking tracing v0.1.44
+    Checking icu_normalizer v2.1.1
+    Checking icu_properties v2.1.2
+   Compiling serde_derive v1.0.228
+    Checking idna_adapter v1.2.1
+   Compiling async-trait v0.1.89
+    Checking idna v1.1.0
+    Checking tokio-util v0.7.18
+    Checking hyper v1.8.1
+    Checking jpeg-decoder v0.3.2
+    Checking num-iter v0.1.45
+    Checking zune-inflate v0.2.54
+    Checking lazy_static v1.5.0
+    Checking bit_field v0.10.3
+    Checking ttf-parser v0.25.1
+    Checking lebe v0.5.3
+    Checking arrayref v0.3.9
+    Checking strict-num v0.1.1
+    Checking tiny-skia-path v0.11.4
+    Checking serde_urlencoded v0.7.1
+    Checking half v2.7.1
+    Checking axum-core v0.4.5
+    Checking sharded-slab v0.1.7
+    Checking exr v1.74.0
+    Checking image v0.23.14
+    Checking owned_ttf_parser v0.25.1
+    Checking tiff v0.9.1
+    Checking hyper-util v0.1.20
+    Checking combine v4.6.7
+    Checking url v2.5.8
+    Checking tower v0.5.3
+    Checking gif v0.13.3
+    Checking serde_path_to_error v0.1.20
+    Checking qoi v0.4.1
+    Checking tracing-log v0.2.0
+    Checking socket2 v0.4.10
+    Checking thread_local v1.1.9
+    Checking ab_glyph_rasterizer v0.1.10
+    Checking arrayvec v0.7.6
+    Checking bitflags v2.11.0
+    Checking matchit v0.7.3
+    Checking http-range-header v0.4.2
+    Checking same-file v1.0.6
+    Checking checked_int_cast v1.0.0
+    Checking sha1_smol v1.0.1
+    Checking nu-ansi-term v0.50.3
+    Checking qrcode v0.12.0
+    Checking walkdir v2.5.0
+    Checking tower-http v0.5.2
+    Checking tracing-subscriber v0.3.23
+    Checking axum v0.7.9
+    Checking tiny-skia v0.11.4
+    Checking ab_glyph v0.2.32
+    Checking image v0.24.9
+    Checking uuid v1.22.0
+    Checking base64 v0.21.7
+    Checking redis v0.23.3
+    Checking pro-design-backend v0.1.0 
+(/app)
+error[E0382]: borrow of moved value: `id`
+   --> src/main.rs:267:49
+    |
+244 |         let id = 
+Uuid::new_v4().to_string();
+    |             -- move occurs because 
+`id` has type `std::string::String`, 
+which does not implement the `Copy` trait
+...
+266 |             poster_id: id,
+    |                        -- value 
+moved here
+267 |             url: 
+format!("/outputs/pro_{}.png", id)
+    |                                     
+            ^^ value borrowed here after 
+move
+    |
+    = note: this error originates in the 
+macro `$crate::__export::format_args` 
+which comes from the expansion of the 
+macro `format` (in Nightly builds, run 
+with -Z macro-backtrace for more info)
+help: consider cloning the value if the 
+performance cost is acceptable
+    |
+266 |             poster_id: id.clone(),
+    |                          ++++++++
+
+error[E0277]: the trait bound `Luma<u8>: 
+qrcode::render::Pixel` is not satisfied
+   --> src/main.rs:22:35
+    |
+22  |         let image = 
+code.render::<Luma<u8>>().build();
+    |                          ------   
+^^^^^^^^ the trait `Element` is not 
+implemented for `Luma<u8>`
+    |                          |
+    |                          required 
+by a bound introduced by this call
+    |
+    = help: the following other types 
+implement trait `Element`:
+              &'a str
+              char
+    = note: required for `Luma<u8>` to 
+implement `qrcode::render::Pixel`
+note: required by a bound in 
+`QrCode::render`
+   --> /usr/local/cargo/registry/src/index
+.crates.io-1949cf8c6b5b557f/qrcode-0.12.0/
+src/lib.rs:246:22
+    |
+246 |     pub fn render<P: Pixel>(&self) 
+-> Renderer<P> {
+    |                      ^^^^^ required 
+by this bound in `QrCode::render`
+
+error[E0599]: the method `build` exists 
+for struct `Renderer<'_, Luma<u8>>`, but 
+its trait bounds were not satisfied
+   --> src/main.rs:22:47
+    |
+22  |           let image = 
+code.render::<Luma<u8>>().build();
+    |                                     
+            ^^^^^ method cannot be called 
+on `Renderer<'_, Luma<u8>>` due to 
+unsatisfied trait bounds
+    |
+   ::: /usr/local/cargo/registry/src/index
+.crates.io-1949cf8c6b5b557f/image-0.24.9/s
+rc/color.rs:362:1
+    |
+362 | / define_colors! {
+363 | |     /// RGB colors.
+364 | |     ///
+365 | |     /// For the purpose of color 
+conversion, as well as blending, the 
+implementation of `Pixel`
+...   |
+373 | |     pub struct LumaA<T: 
+Primitive>([T; 2, 1]) = "YA";
+374 | | }
+    | |_- doesn't satisfy `Luma<u8>: 
+Element`
+    |
+    = note: the following trait bounds 
+were not satisfied:
+            `Luma<u8>: Element`
+
+error[E0433]: failed to resolve: use of 
+undeclared type `Surface`
+   --> src/main.rs:458:23
+    |
+458 |     let mut surface = 
+Surface::new(w, h).unwrap();
+    |                       ^^^^^^^ use 
+of undeclared type `Surface`
+
+error[E0308]: mismatched types
+   --> src/main.rs:553:17
+    |
+552 |             match theme {
+    |                   ----- this 
+expression has type `std::string::String`
+553 |                 "church" | 
+"├®glise" | "luxury" | "luxe" => 
+"Playfair",
+    |                 ^^^^^^^^ expected 
+`String`, found `&str`
+
+error[E0308]: mismatched types
+   --> src/main.rs:553:28
+    |
+552 |             match theme {
+    |                   ----- this 
+expression has type `std::string::String`
+553 |                 "church" | 
+"├®glise" | "luxury" | "luxe" => 
+"Playfair",
+    |                            ^^^^^^^^ 
+expected `String`, found `&str`
+
+error[E0308]: mismatched types
+   --> src/main.rs:553:39
+    |
+552 |             match theme {
+    |                   ----- this 
+expression has type `std::string::String`
+553 |                 "church" | 
+"├®glise" | "luxury" | "luxe" => 
+"Playfair",
+    |                                     
+  ^^^^^^^^ expected `String`, found `&str`
+
+error[E0308]: mismatched types
+   --> src/main.rs:553:50
+    |
+552 |             match theme {
+    |                   ----- this 
+expression has type `std::string::String`
+553 |                 "church" | 
+"├®glise" | "luxury" | "luxe" => 
+"Playfair",
+    |                                     
+             ^^^^^^ expected `String`, 
+found `&str`
+
+error[E0308]: mismatched types
+   --> src/main.rs:554:17
+    |
+552 |             match theme {
+    |                   ----- this 
+expression has type `std::string::String`
+553 |                 "church" | 
+"├®glise" | "luxury" | "luxe" => 
+"Playfair",
+554 |                 "tech" | 
+"├®v├®nement" | "event" => "Montserrat",
+    |                 ^^^^^^ expected 
+`String`, found `&str`
+
+error[E0308]: mismatched types
+   --> src/main.rs:554:26
+    |
+552 |             match theme {
+    |                   ----- this 
+expression has type `std::string::String`
+553 |                 "church" | 
+"├®glise" | "luxury" | "luxe" => 
+"Playfair",
+554 |                 "tech" | 
+"├®v├®nement" | "event" => "Montserrat",
+    |                          
+^^^^^^^^^^^ expected `String`, found 
+`&str`
+
+error[E0308]: mismatched types
+   --> src/main.rs:554:40
+    |
+552 |             match theme {
+    |                   ----- this 
+expression has type `std::string::String`
+553 |                 "church" | 
+"├®glise" | "luxury" | "luxe" => 
+"Playfair",
+554 |                 "tech" | 
+"├®v├®nement" | "event" => "Montserrat",
+    |                                     
+   ^^^^^^^ expected `String`, found `&str`
+
+error[E0308]: mismatched types
+   --> src/main.rs:584:54
+    |
+584 |             
+fill_solid_background(&mut pixmap, w, h, 
+theme);
+    |             ---------------------   
+                 ^^^^^ expected `&str`, 
+found `String`
+    |             |
+    |             arguments to this 
+function are incorrect
+    |
+note: function defined here
+   --> src/main.rs:858:4
+    |
+858 | fn fill_solid_background(pixmap: 
+&mut Pixmap, w: f32, h: f32, theme: &str) 
+{
+    |    ^^^^^^^^^^^^^^^^^^^^^            
+                          -----------
+help: consider borrowing here
+    |
+584 |             
+fill_solid_background(&mut pixmap, w, h, 
+&theme);
+    |                                     
+                 +
+
+error[E0308]: mismatched types
+   --> src/main.rs:587:50
+    |
+587 |         fill_solid_background(&mut 
+pixmap, w, h, theme);
+    |         ---------------------       
+             ^^^^^ expected `&str`, found 
+`String`
+    |         |
+    |         arguments to this function 
+are incorrect
+    |
+note: function defined here
+   --> src/main.rs:858:4
+    |
+858 | fn fill_solid_background(pixmap: 
+&mut Pixmap, w: f32, h: f32, theme: &str) 
+{
+    |    ^^^^^^^^^^^^^^^^^^^^^            
+                          -----------
+help: consider borrowing here
+    |
+587 |         fill_solid_background(&mut 
+pixmap, w, h, &theme);
+    |                                     
+             +
+
+error[E0308]: mismatched types
+   --> src/main.rs:595:48
+    |
+595 |         draw_logo(&mut pixmap, 
+logo_b64, w, h, theme)
+    |         ---------                   
+           ^^^^^ expected `&str`, found 
+`String`
+    |         |
+    |         arguments to this function 
+are incorrect
+    |
+note: function defined here
+   --> src/main.rs:811:4
+    |
+811 | fn draw_logo(pixmap: &mut Pixmap, 
+logo_b64: &str, canvas_w: f32, canvas_h: 
+f32, theme: &str) -> f32 {
+    |    ^^^^^^^^^                        
+                                          
+  -----------
+help: consider borrowing here
+    |
+595 |         draw_logo(&mut pixmap, 
+logo_b64, w, h, &theme)
+    |                                     
+           +
+
+error[E0599]: no method named 
+`stroke_circle` found for mutable 
+reference `&mut tiny_skia::Pixmap` in the 
+current scope
+   --> src/main.rs:678:12
+    |
+678 |     pixmap.stroke_circle(w/2.0, 
+h/2.0, w*0.3, &paint, &Stroke::default(), 
+Transform::identity(), None);
+    |            ^^^^^^^^^^^^^ method not 
+found in `&mut Pixmap`
+
+error[E0599]: no method named 
+`stroke_rect` found for mutable reference 
+`&mut tiny_skia::Pixmap` in the current 
+scope
+   --> src/main.rs:696:12
+    |
+696 |     pixmap.stroke_rect(Rect::from_xy
+wh(w*0.05, h*0.05, w*0.9, 
+h*0.9).unwrap(), &paint, &stroke, 
+Transform::identity(), None);
+    |            ^^^^^^^^^^^ method not 
+found in `&mut Pixmap`
+
+error[E0382]: borrow of moved value: `id`
+   --> src/main.rs:452:44
+    |
+449 |     let id = 
+Uuid::new_v4().to_string();
+    |         -- move occurs because `id` 
+has type `std::string::String`, which 
+does not implement the `Copy` trait
+...
+452 |     (id, 
+format!("/outputs/mockup_{}.png", id))
+    |      -- value moved here            
+       ^^ value borrowed here after move
+    |
+    = note: this error originates in the 
+macro `$crate::__export::format_args` 
+which comes from the expansion of the 
+macro `format` (in Nightly builds, run 
+with -Z macro-backtrace for more info)
+help: consider cloning the value if the 
+performance cost is acceptable
+    |
+452 |     (id.clone(), 
+format!("/outputs/mockup_{}.png", id))
+    |        ++++++++
+
+Some errors have detailed explanations: 
+E0277, E0308, E0382, E0433, E0599.
+For more information about an error, try 
+`rustc --explain E0277`.
+error: could not compile 
+`pro-design-backend` (bin 
+"pro-design-backend") due to 17 previous 
+errors

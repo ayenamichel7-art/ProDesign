@@ -1,0 +1,24 @@
+[package]
+name = "video_engine"
+version = "0.1.0"
+edition = "2021"
+description = "Headless Adobe-Killer Auto-Edit Engine"
+
+[dependencies]
+tokio = { version = "1.43", features = ["full"] }
+axum = { version = "0.7", features = ["multipart", "macros", "ws"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+uuid = { version = "1.13", features = ["v4"] }
+
+# Communication & Queue
+redis = { version = "0.23", features = ["tokio-comp"] }
+
+# Utilities
+anyhow = "1.0"
+time = "=0.3.36"
+tempfile = "3.16"
+chrono = "0.4"
+futures = "0.3"

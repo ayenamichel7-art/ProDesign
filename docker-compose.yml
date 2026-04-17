@@ -1,0 +1,216 @@
+networks:
+  pro-net:
+    driver: bridge
+
+services:
+  # Base de données PostgreSQL
+  db:
+    image: postgres:17-alpine
+    restart: always
+    command: postgres -c shared_buffers=512MB -c work_mem=16MB -c maintenance_work_mem=128MB -c effective_cache_size=1536MB -c temp_file_limit=512MB -c max_connections=50
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-prodesign_user} -d ${POSTGRES_DB:-prodesign_db}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    deploy:
+      resources:
+        limits:
+          cpus: '0.40'
+          memory: 1G
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - pro-net
+
+  # Cache & Queue en mémoire
+  redis:
+    image: redis:7-alpine
+    restart: always
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    deploy:
+      resources:
+        limits:
+          cpus: '0.10'
+          memory: 128M
+    networks:
+      - pro-net
+
+  # Stockage Objet S3 (Fichiers, Médias, Rendu)
+  minio:
+    image: minio/minio
+    restart: always
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD}
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    deploy:
+      resources:
+        limits:
+          cpus: '0.20'
+          memory: 512M
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - minio_data:/data
+    networks:
+      - pro-net
+
+  # Proxy Inverse et Load Balancer
+  nginx:
+    image: nginx:alpine
+    restart: always
+    ports:
+      - "8080:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./affiche:/app/affiche:ro
+    depends_on:
+      frontend:
+        condition: service_started
+      backend:
+        condition: service_started
+    deploy:
+      resources:
+        limits:
+          cpus: '0.10'
+          memory: 128M
+    networks:
+      - pro-net
+
+  # Interface Web
+  frontend:    
+    build: 
+      context: ./frontend
+      dockerfile: Dockerfile
+    deploy:
+      resources:
+        limits:
+          cpus: '0.10'
+          memory: 128M
+    networks:
+      - pro-net
+
+  # L'API Rust
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    volumes:
+      - pro-outputs:/app/outputs
+      - ./backend/fonts:/app/fonts
+      - /usr/share/fonts:/app/system_fonts:ro
+    environment:
+      - DATABASE_URL=${DATABASE_URL}
+      - REDIS_URL=${REDIS_URL}
+      - MINIO_ENDPOINT=minio:9000
+      - MINIO_ACCESS_KEY=${MINIO_ACCESS_KEY}
+      - MINIO_SECRET_KEY=${MINIO_SECRET_KEY}
+      - FEDAPAY_SECRET=${FEDAPAY_SECRET}
+      - JWT_SECRET=${JWT_SECRET}
+      - ALLOWED_ORIGINS=${ALLOWED_ORIGINS:-http://localhost:3000,http://localhost:8080}
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
+          memory: 1G
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      minio:
+        condition: service_healthy
+    networks:
+      - pro-net
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+
+  # Moteur de traitement d'images (Style Lightroom)
+  image-worker:
+    build:
+      context: ./worker
+      dockerfile: Dockerfile
+    restart: always
+    volumes:
+      - pro-outputs:/app/outputs
+    environment:
+      - REDIS_URL=${REDIS_URL}
+      - MINIO_ENDPOINT=minio:9000
+      - MINIO_ACCESS_KEY=${MINIO_ACCESS_KEY}
+      - MINIO_SECRET_KEY=${MINIO_SECRET_KEY}
+    deploy:
+      resources:
+        limits:
+          cpus: '0.80'
+          memory: 1G
+    depends_on:
+      redis:
+        condition: service_healthy
+      minio:
+        condition: service_healthy
+    networks:
+      - pro-net
+
+  # Robot d'Automation et Rapports (KPI, Feedback, Telegram)
+  automation-robot:
+    build:
+      context: ./worker
+      dockerfile: Dockerfile
+    command: /app/venv/bin/python automation.py
+    restart: always
+    environment:
+      - REDIS_URL=${REDIS_URL}
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+      - TELEGRAM_CHAT_ID=${TELEGRAM_CHAT_ID}
+    depends_on:
+      redis:
+        condition: service_healthy
+    networks:
+      - pro-net
+
+  # Moteur de Montage Vidéo IA (Adobe-Killer)
+  video-engine:
+    build:
+      context: ./video_engine
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    volumes:
+      - pro-outputs:/app/outputs
+      - ./video_engine/data/rushs:/app/rushs
+    deploy:
+      resources:
+        limits:
+          cpus: '1.2'
+          memory: 3G
+    depends_on:
+      redis:
+        condition: service_healthy
+    networks:
+      - pro-net
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+
+volumes:
+  pgdata:
+  minio_data:
+  pro-outputs:

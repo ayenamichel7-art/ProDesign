@@ -1,0 +1,60 @@
+# Secrets & Config
+.env
+.env.*
+!.env.example
+secrets.json
+
+# Rust (all targets)
+**/target/
+Cargo.lock
+
+# Node
+node_modules/
+**/node_modules/
+**/dist/
+.npm
+.eslintcache
+
+# Python
+__pycache__/
+**/*.py[cod]
+**/*$py.class
+venv/
+.venv/
+env/
+.env/
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Build & Data artifacts
+*.log
+**/outputs/
+**/data/
+**/rushs/*
+!**/rushs/.gitkeep
+
+# Security Tools
+.snyk
+.semgrep
+.gitleaks.toml (opt)
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
