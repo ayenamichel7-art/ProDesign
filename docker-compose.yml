@@ -26,6 +26,10 @@ services:
       - pgdata:/var/lib/postgresql/data
     networks:
       - pro-net
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
 
   # Cache & Queue en mémoire
   redis:
@@ -43,6 +47,10 @@ services:
           memory: 128M
     networks:
       - pro-net
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
 
   # Stockage Objet S3 (Fichiers, Médias, Rendu)
   minio:
@@ -69,6 +77,10 @@ services:
       - minio_data:/data
     networks:
       - pro-net
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
 
   # Proxy Inverse et Load Balancer
   nginx:
@@ -92,6 +104,10 @@ services:
           memory: 128M
     networks:
       - pro-net
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
 
   # Interface Web
   frontend:    
@@ -105,6 +121,10 @@ services:
           memory: 128M
     networks:
       - pro-net
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
 
   # L'API Rust
   backend:
@@ -168,6 +188,10 @@ services:
         condition: service_healthy
     networks:
       - pro-net
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
 
   # Robot d'Automation et Rapports (KPI, Feedback, Telegram)
   automation-robot:
@@ -185,6 +209,10 @@ services:
         condition: service_healthy
     networks:
       - pro-net
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
 
   # Moteur de Montage Vidéo IA (Adobe-Killer)
   video-engine:

@@ -1,64 +1,64 @@
-# 💎 ProDesign - High-End Creative Engine
+# 💎 ProDesign - Moteur Créatif Haut de Gamme
 
-![ProDesign Banner](https://img.shields.io/badge/Status-Stable-brightgreen?style=for-the-badge)
-![Security-Snyk](https://img.shields.io/badge/Security-Snyk_Protected-blueviolet?style=for-the-badge)
-![License-Proprietary](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)
+![ProDesign Status](https://img.shields.io/badge/Statut-Stable-brightgreen?style=for-the-badge)
+![Sécurité-Snyk](https://img.shields.io/badge/S%C3%A9curit%C3%A9-Snyk_Prot%C3%A9g%C3%A9-blueviolet?style=for-the-badge)
+![Licence-Propriétaire](https://img.shields.io/badge/Licence-Propri%C3%A9taire-red?style=for-the-badge)
 
-**ProDesign** is a state-of-the-art creative automation platform combining the performance of **Rust**, the flexibility of **Python IA**, and a modern **React** interface. Designed for agencies and creative leads who need power, speed, and absolute reliability.
+**ProDesign** est une plateforme d'automatisation créative à la pointe de la technologie, alliant la performance de **Rust**, la flexibilité de l'**IA Python**, et une interface **React** moderne. Conçu pour les agences et les directeurs de création qui exigent puissance, rapidité et fiabilité absolue.
 
 ---
 
-## 🚀 Key Features
+## 🚀 Fonctionnalités Clés
 
-- 🦀 **Rust Graphics Engine**: Blazing fast image composition using `tiny-skia` and `printpdf`.
-- 🤖 **AI-Driven Automation**: Intelligent background removal and image optimization worker.
-- 📊 **Dynamic Reporting**: Telegram & Redis integrated dashboard for real-time KPIs.
-- 🛡️ **Military Grade Security**: Hardened Docker containers with zero-privilege profiles.
-- ☁️ **S3 Compatible Storage**: Native MinIO integration for reliable asset management.
+- 🦀 **Moteur Graphique Rust** : Composition d'images ultra-rapide utilisant `tiny-skia` et `printpdf`.
+- 🤖 **Automation Pilotée par l'IA** : Suppression intelligente de l'arrière-plan et optimisation d'images avec les modèles IA les plus récents.
+- 📊 **Reporting Dynamique** : Dashboard intégré avec Telegram et Redis pour des KPIs en temps réel.
+- 🛡️ **Sécurité de Grade Militaire** : Conteneurs Docker durcis avec des profils "zéro-privilège".
+- ☁️ **Stockage S3 Natif** : Intégration MinIO pour une gestion fiable des actifs numériques.
 
-## 🛠️ Technology Stack
+## 🛠️ Stack Technique
 
-| Component | Technology | Description |
+| Composant | Technologie | Description |
 | :--- | :--- | :--- |
-| **Backend** | Rust (Axum / SQLx) | Core High-Performance API |
-| **Worker** | Python (OpenCV / rembg) | AI & Media Processing |
-| **Queue** | Redis 7 | Real-time Job Management |
-| **Database** | PostgreSQL 17 | Relational persistence |
-| **Storage** | MinIO | S3 Object Storage API |
-| **Proxy** | Nginx Alpine | Low-latency Reverse Proxy |
+| **Backend** | Rust (Axum / SQLx) | API de haute performance |
+| **Worker** | Python (OpenCV / rembg) | Traitement IA & Média |
+| **Queue** | Redis 7 | Gestion des tâches en temps réel |
+| **Base de données** | PostgreSQL 17 | Persistance relationnelle |
+| **Stockage** | MinIO | API Object Storage compatible S3 |
+| **Proxy** | Nginx Alpine | Proxy inverse à faible latence |
 
 ---
 
-## 🛡️ Security Hardening
+## 🛡️ Hardening & Sécurité
 
-This project follows a strict security-first architecture:
+Ce projet suit une architecture stricte de "Security-by-Design" :
 
-- **Secret Zero-Tolerance**: Scanned by **Gitleaks** and **Husky** hooks.
-- **Dependency Audit**: Continuous monitoring via **Snyk** and **OSV-Scanner**.
-- **SAST**: Automated code quality scans with **Semgrep**.
-- **Container Hardening**: `no-new-privileges` and `cap_drop` enabled on all critical services.
+- **Zéro-Tolérance Secrets** : Scanné par **Gitleaks** et protégé par des hooks **Husky**.
+- **Audit de Dépendances** : Surveillance continue via **Snyk** et **OSV-Scanner**.
+- **SAST** : Scans automatisés de la qualité du code avec **Semgrep**.
+- **Durcissement Docker** : Options `no-new-privileges` et `cap_drop` activées sur tous les services critiques.
 
-## 📦 Getting Started
+## 📦 Mise en Route
 
-### Prerequisites
+### Prérequis
 - Docker & Docker Compose
-- GitHub `act` (for local action testing)
+- GitHub `act` (pour tester les actions localement)
 
 ### Installation
-1. Clone the repository (Access restricted).
-2. Create your `.env` from `.env.example`.
-3. Launch with Docker Compose:
+1. Cloner le dépôt (Accès restreint).
+2. Créer votre fichier `.env` à partir de `.env.example`.
+3. Lancer l'infrastructure avec Docker Compose :
 ```bash
 docker compose up -d
 ```
 
 ---
 
-## 📜 Intellectual Property
+## 📜 Propriété Intellectuelle
 
 **Copyright © 2026 Ayena Michel.**  
-This project is **Proprietary**. All rights are reserved. No part of this codebase may be reproduced or used without express written permission.
+Ce projet est **Propriétaire**. Tous droits réservés. Aucune partie de ce code source ne peut être reproduite ou utilisée sans une autorisation écrite expresse.
 
 ---
 
-*Powered by ProDesign AI Engine.*
+*Propulsé par le moteur IA ProDesign.*
