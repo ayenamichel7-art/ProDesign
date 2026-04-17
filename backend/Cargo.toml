@@ -24,11 +24,11 @@ printpdf = { version = "0.7", features = ["embedded_images"] }
 reqwest = { version = "0.11", features = ["json"] } # Keep 0.11 for stability with Axum 0.7
 textwrap = "0.16"
 anyhow = "1.0"
-time = "=0.3.36"
-jsonwebtoken = "9.3"
+time = "0.3.37"
+jsonwebtoken = "10.0"
 bcrypt = "0.15"
 # time-core est verrouillé par la version de time ci-dessus
-rand = "0.8"
+rand = "0.9"
 regex = "1.11"
 sqlx = { version = "0.8", features = ["runtime-tokio-rustls", "postgres", "uuid", "chrono"] }
 rust-s3 = "0.34"
