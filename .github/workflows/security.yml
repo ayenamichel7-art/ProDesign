@@ -8,10 +8,15 @@ on:
   schedule:
     - cron: '0 0 * * *' # Every night
 
+permissions:
+  contents: read
+
 jobs:
   gitleaks:
     name: 🔑 Secret Scan (Gitleaks)
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v4
         with:
@@ -23,6 +28,8 @@ jobs:
   semgrep:
     name: 🔍 Static Analysis (Semgrep)
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     container:
       image: returntocorp/semgrep
     steps:
@@ -32,6 +39,8 @@ jobs:
   osv-scanner:
     name: 📦 Dependency Scan (OSV)
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v4
       - name: Install OSV-Scanner
@@ -44,6 +53,8 @@ jobs:
   snyk:
     name: 🛡️ Security Audit (Snyk)
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v4
       - name: Snyk Test

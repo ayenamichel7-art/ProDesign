@@ -75,6 +75,14 @@ export default function Dashboard({ authToken, setAuthToken, handleLogout }: { a
 
   const apiBaseUrl = window.location.hostname === 'localhost' ? 'http://localhost:8080' : ''
 
+const sanitizeUrl = (url: string) => {
+  if (!url) return '#';
+  const trimmed = url.trim();
+  if (trimmed.toLowerCase().startsWith('javascript:')) return '#';
+  if (trimmed.toLowerCase().startsWith('data:text/html')) return '#';
+  return trimmed;
+};
+
   const authFetch = async (url: string, options: RequestInit = {}): Promise<Response> => {
     const headers: Record<string, string> = {}
     if (options.headers) Object.assign(headers, options.headers)
@@ -450,7 +458,7 @@ export default function Dashboard({ authToken, setAuthToken, handleLogout }: { a
          })
          const data = await resp.json()
          if (data.url) {
-            window.location.href = data.url
+            window.location.href = sanitizeUrl(data.url)
          }
       } catch (e) {
          console.error("Payment failed:", e)
@@ -1321,7 +1329,7 @@ export default function Dashboard({ authToken, setAuthToken, handleLogout }: { a
                              <p className="text-xs font-medium opacity-60 uppercase tracking-widest">Pagination Auto • Filigrane Actif • Sommaire Dynamique</p>
                            </div>
                            <div className="flex flex-col w-full gap-3 mt-4 z-10">
-                              <a href={pdfUrl} target="_blank" rel="noreferrer" className="btn btn-lg w-full bg-white text-black hover:bg-neutral-200 border-0 rounded-2xl font-black shadow-2xl transition-all">
+                              <a href={sanitizeUrl(pdfUrl)} target="_blank" rel="noreferrer" className="btn btn-lg w-full bg-white text-black hover:bg-neutral-200 border-0 rounded-2xl font-black shadow-2xl transition-all">
                                  Consulter le Dossier Final (PDF A4)
                               </a>
                               <button className="btn btn-ghost btn-sm text-[10px] font-bold uppercase tracking-widest opacity-50 hover:opacity-100">
@@ -1530,7 +1538,7 @@ export default function Dashboard({ authToken, setAuthToken, handleLogout }: { a
                                        <span className="text-[10px] opacity-40">{v.date}</span>
                                     </div>
                                     <div className="flex gap-2">
-                                       <a href={v.url} target="_blank" className="btn btn-xs btn-ghost hover:bg-[#00A3FF]/20 text-[#00A3FF] capitalize">
+                                       <a href={sanitizeUrl(v.url)} target="_blank" className="btn btn-xs btn-ghost hover:bg-[#00A3FF]/20 text-[#00A3FF] capitalize">
                                           <Download className="w-3 h-3 mr-1" /> Voir
                                        </a>
                                        <button 
@@ -1659,7 +1667,7 @@ export default function Dashboard({ authToken, setAuthToken, handleLogout }: { a
                             </p>
                             
                             <div className="flex gap-4 mt-12">
-                               <a href={pdfUrl} target="_blank" rel="noreferrer" className="btn btn-lg bg-white text-black border-0 rounded-full font-black uppercase tracking-widest hover:scale-110 transition-all shadow-2xl">
+                               <a href={sanitizeUrl(pdfUrl)} target="_blank" rel="noreferrer" className="btn btn-lg bg-white text-black border-0 rounded-full font-black uppercase tracking-widest hover:scale-110 transition-all shadow-2xl">
                                   Télécharger PDF (Mode Présentation 16:9)
                                </a>
                             </div>
