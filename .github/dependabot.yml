@@ -1,0 +1,65 @@
+version: 2
+updates:
+  # Maintain dependencies for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+  # Maintain dependencies for NPM (Root)
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+
+  # Maintain dependencies for NPM (Frontend)
+  - package-ecosystem: "npm"
+    directory: "/frontend"
+    schedule:
+      interval: "daily"
+
+  # Maintain dependencies for Python (Worker)
+  - package-ecosystem: "pip"
+    directory: "/worker"
+    schedule:
+      interval: "daily"
+
+  # Maintain dependencies for Rust (Root/Backend)
+  - package-ecosystem: "cargo"
+    directory: "/"
+    schedule:
+      interval: "daily"
+
+  # Maintain dependencies for Rust (Backend Subdirectory if separate)
+  - package-ecosystem: "cargo"
+    directory: "/backend"
+    schedule:
+      interval: "daily"
+
+  # Maintain dependencies for Rust (Video Engine)
+  - package-ecosystem: "cargo"
+    directory: "/video_engine"
+    schedule:
+      interval: "daily"
+
+  # Maintain dependencies for Docker
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "docker"
+    directory: "/frontend"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "docker"
+    directory: "/backend"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "docker"
+    directory: "/worker"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "docker"
+    directory: "/video_engine"
+    schedule:
+      interval: "weekly"
